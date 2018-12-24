@@ -33,7 +33,7 @@
   "scripts": {
     "build": "atool-build",
     "lint": "eslint --ext .js,.jsx src/",
-    "start": "dora --plugins webpack",
+    "start": "set PORT=9000 && dora --plugins webpack",
     "test": "atool-test-mocha ./**/__tests__/*-test.js"
   }
 }
